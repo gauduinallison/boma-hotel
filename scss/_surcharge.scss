@@ -45,48 +45,6 @@ header{
       border: 0px;
     }
 
-    figcaption{
-      position: absolute;
-      top: 465px;
-      z-index: 1;
-      right: 815px;
-    }
-
-      h2{
-        font-family: Georgia, serif;
-        color: $primary-color;
-        font-weight: bold;
-      }
-
-      h3{
-        color: white;
-        font-weight: bold;
-      }
-
-      mark{
-        font-family: Futura, Trebuchet MS, Arial, sans-serif;
-        color: white;
-        font-weight: bold;
-        font-size: 100px;
-        background: none;
-        position: absolute;
-        bottom: 200px;
-        left: 135px;
-        z-index: -1;
-        opacity: 0.5;
-      }
-
-      input{
-        background-color: $primary-color;
-        color: white;
-        border: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
-      }
-    }
-
     button{
       width: 16px;
       height: 16px;
