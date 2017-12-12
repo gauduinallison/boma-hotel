@@ -81,6 +81,13 @@ header{
 .noir-blanc{
   height: 490px;
   overflow: hidden;
+  position: relative;
+
+  img{
+    position: absolute;
+    left: 0;
+    top: -440px;
+  }
 }
 
 .color{
@@ -218,6 +225,12 @@ footer{
 
   .cupidon{
     background-image: none;
+  }
+
+  .noir-blanc{
+    img{
+      top: 0;
+    }
   }
 
   .copyright-2{
