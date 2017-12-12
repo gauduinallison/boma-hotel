@@ -55,6 +55,7 @@ header{
       }
     }
   }
+}
 
 .hotel{
   background-image: url("../img/losange.png");
@@ -133,6 +134,16 @@ header{
 footer{
   background-color: #48453C;
   color: white;
+
+  .copyright{
+    background-color: black;
+
+    .retour{
+      background-color: #CBA353;
+      width: 29px;
+      height: 29px;
+    }
+  }
 }
 
 
@@ -153,5 +164,9 @@ footer{
 
   .cupidon{
     background-image: none;
+  }
+
+  .copyright-2{
+    text-align: center;
   }
 }
