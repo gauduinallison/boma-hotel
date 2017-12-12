@@ -161,11 +161,18 @@ footer{
 @media screen and (max-width: 640px){
   .menu_mobile{
     display: block;
-    
+
+    .off-canvas{
+      background-color: white;
+    }
+
     .button_ouverture{
       top: 27px;
       position: absolute;
       right: 20px;
+    }
+
+    .close_button{
     }
   }
 
