@@ -6,6 +6,21 @@ body{
   height: 940px;
   overflow: hidden;
 
+  .orbit-wrapper{
+    position: relative;
+
+    .orbit-container{
+    height: 940px;
+    }
+  }
+
+  .orbit-previous,.orbit-next{
+    background-color: black;
+    opacity: 0.5;
+    width: 95px;
+    height: 121px;
+  }
+
   .orbit-figure{
     position: relative;
 
@@ -40,6 +55,21 @@ body{
         padding-bottom: 10px;
         padding-left: 25px;
         padding-right: 25px;
+      }
+    }
+  }
+
+  .orbit-bullets{
+    position: absolute;
+    bottom: 0;
+
+    button{
+      width: 16px;
+      height: 16px;
+
+      .is-active{
+        background-color: #BFA177;
+        margin-left: 10px;
       }
     }
   }
