@@ -37,9 +37,19 @@ header{
   .orbit-figure{
     position: relative;
 
+    hr{
+      background-color: $primary-color;
+      width:70px;
+      height: 6px;
+      float: left;
+      border: 0px;
+    }
+
     figcaption{
       position: absolute;
-      top: 0;
+      top: 420px;
+      z-index: 1;
+      left: 390px;
     }
 
       h2{
@@ -59,6 +69,11 @@ header{
         font-weight: bold;
         font-size: 100px;
         background: none;
+        position: relative;
+        bottom: 114px;
+        left: 73px;
+        z-index: -1;
+        opacity: 0.5;
       }
 
       input{
