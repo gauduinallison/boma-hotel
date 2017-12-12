@@ -97,37 +97,37 @@ header{
 .color{
   background-color: $primary-color;
   color: white;
+
+  h5{
+    font-weight: 900!important;
+  }
+
+  hr{
+    background-color: $secondary-color;
+    width:70px;
+    height: 6px;
+    float: left;
+    border: 0px;
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  input{
+    background:none;
+    border: solid 1px $secondary-color;
+    color: $secondary-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 .salon{
   width: 50%;
-}
-
-h5{
-  font-weight: 900!important;
-}
-
-hr{
-  background-color: $secondary-color;
-  width:70px;
-  height: 6px;
-  left: 0;
-  border: 0px;
-}
-
-p{
-  font-size: 16px;
-  font-weight: 300;
-}
-
-input{
-  background:none;
-  border: solid 1px $secondary-color;
-  color: $secondary-color;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .cupidon{
