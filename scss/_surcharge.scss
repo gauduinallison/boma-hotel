@@ -2,6 +2,10 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
+.menu_mobile{
+  display: none;
+}
+
 header{
   a{
     color: #4f4f4f;
@@ -129,6 +133,12 @@ header{
 
 .map{
   height: 747px;
+  display: flex;
+
+  .flex{
+    height: 310px;
+    margin: auto;
+  }
 }
 
 footer{
@@ -149,6 +159,24 @@ footer{
 
 
 @media screen and (max-width: 640px){
+  .menu_mobile{
+    display: block;
+    
+    .button_ouverture{
+      top: 27px;
+      position: absolute;
+      right: 20px;
+    }
+  }
+
+  .logo{
+    padding-bottom:20px;
+  }
+
+  .menu_desktop{
+    display: none;
+  }
+
   .orbit-previous,.orbit-next{
     width: 47px!important;
     height: 60px!important;

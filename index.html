@@ -9,12 +9,27 @@
   </head>
   <body>
     <header>
+      <div class="menu_mobile">
+        <button type="button" class="button_ouverture" data-toggle="offCanvasRight"><img src="img/burger.png" alt=""></button>
+          <div class="row column">
+            <div class="off-canvas-wrapper">
+              <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas>
+                <ul class="vertical menu">
+                  <li><a href="#">L'hôtel</a></li>
+                  <li><a href="#">Offre cupidon</a></li>
+                  <li><a href="#">Accès</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
-          <div class="medium-3 cell">
+          <div class="medium-3 cell logo">
             <img src="img/logo.png" alt="">
           </div>
-          <div class="medium-6 cell align-self-middle">
+          <div class="medium-6 cell align-self-middle menu_desktop">
             <nav>
               <ul class="vertical medium-horizontal menu align-center text-uppercase" data-responsive-menu="accordion medium-dropdown">
                 <li><a href="index.html">L'hôtel</a></li>
@@ -277,7 +292,7 @@
               <div class="grid-container">
                 <div class="grid-x">
                   <div class="large-4 cell padding-right-2 color map padding-left-2 padding-top-2 padding-bottom-2">
-                    <div class="grid-container">
+                    <div class="grid-container flex">
                       <div class="grid-x">
                         <div class="large-12 cell">
                           <h5>Trouvez <br /> le cocon</h5>
