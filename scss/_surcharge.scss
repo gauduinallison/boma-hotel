@@ -102,6 +102,11 @@ header{
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
+
+      &:hover{
+        background-color: $secondary-color;
+        color: white;
+      }
   }
 }
 
