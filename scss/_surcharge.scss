@@ -2,12 +2,24 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
+header{
+  a{
+    color: #4f4f4f;
+  }
+}
+
 .orbit{
   overflow: hidden;
   height: auto;
 
   .orbit-bullets{
     bottom: 50px;
+
+    button{
+      width: 16px;
+      height: 16px;
+      margin: 10px;
+    }
   }
 
   .orbit-wrapper{
