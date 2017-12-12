@@ -69,8 +69,10 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: #9D2231,
+  secondary: #BFA177,
+  tertiary:#4F4F4F,
+  footer:#48453C,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -511,7 +513,7 @@ $maincontent-class: 'off-canvas-content';
 // ---------
 
 $orbit-bullet-background: $medium-gray;
-$orbit-bullet-background-active: $dark-gray;
+$orbit-bullet-background-active: $secondary-color;
 $orbit-bullet-diameter: 1.2rem;
 $orbit-bullet-margin: 0.1rem;
 $orbit-bullet-margin-top: 0.8rem;

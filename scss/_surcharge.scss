@@ -3,15 +3,15 @@ body{
 }
 
 .orbit{
-  height: 940px;
   overflow: hidden;
+  height: auto;
+
+  .orbit-bullets{
+    bottom: 50px;
+  }
 
   .orbit-wrapper{
     position: relative;
-
-    .orbit-container{
-    height: 940px;
-    }
   }
 
   .orbit-previous,.orbit-next{
@@ -27,10 +27,11 @@ body{
     figcaption{
       position: absolute;
       top: 0;
+    }
 
       h2{
         font-family: Georgia, serif;
-        color: #9D2332;
+        color: $primary-color;
         font-weight: bold;
       }
 
@@ -48,7 +49,7 @@ body{
       }
 
       input{
-        background-color: #9D2332;
+        background-color: $primary-color;
         color: white;
         border: none;
         padding-top: 10px;
@@ -57,23 +58,17 @@ body{
         padding-right: 25px;
       }
     }
-  }
-
-  .orbit-bullets{
-    position: absolute;
-    bottom: 0;
 
     button{
       width: 16px;
       height: 16px;
+      margin: 10px;
 
       .is-active{
-        background-color: #BFA177;
-        margin-left: 10px;
+        background-color: $secondary-color;
       }
     }
   }
-}
 
 .hotel{
   background-image: url("../img/losange.png");
@@ -88,7 +83,7 @@ body{
 }
 
 .color{
-  background-color: #9D2231;
+  background-color: $primary-color;
   color: white;
 }
 
@@ -101,7 +96,7 @@ h5{
 }
 
 hr{
-  background-color:#BFA177;
+  background-color: $secondary-color;
   width:70px;
   height: 6px;
   left: 0;
@@ -115,8 +110,8 @@ p{
 
 input{
   background:none;
-  border: solid 1px #BFA177;
-  color: #BFA177;
+  border: solid 1px $secondary-color;
+  color: $secondary-color;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
@@ -137,7 +132,7 @@ input{
 
     hr{
       width: 95px;
-      background-color: #9D2332;
+      background-color: $primary-color;
       height: 1px;
       display: inline-block;
       margin: 10px;
@@ -156,7 +151,12 @@ footer{
 
 
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 640px){
+  .orbit-previous,.orbit-next{
+    width: 47px!important;
+    height: 60px!important;
+  }
+
   .icon{
     text-align: center;
   }
