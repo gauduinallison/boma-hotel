@@ -18,29 +18,26 @@
                   <img src="img/close.png" alt="">
                 </button>
                 <ul class="vertical menu text-uppercase align-center padding-top-3">
-                  <li><a href="#">L'hôtel</a></li>
-                  <li><a href="#">Offre cupidon</a></li>
-                  <li><a href="#">Accès</a></li>
+                  <li><a href="#hotel">L'hôtel</a></li>
+                  <li><a href="#cupidon">Offre cupidon</a></li>
+                  <li><a href="#acces">Accès</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-          <div class="medium-3 cell logo">
+      <div class="grid-container" id='header'>
+        <div class="grid-x grid-padding-x text-center">
+          <div class="medium-6 cell logo">
             <img src="img/logo.png" alt="">
           </div>
           <div class="medium-6 cell align-self-middle menu_desktop">
             <nav>
               <ul class="vertical medium-horizontal menu align-center text-uppercase" data-responsive-menu="accordion medium-dropdown">
-                <li><a href="index.html">L'hôtel</a></li>
-                <li><a href="">Offre cupidon</a></li>
-                <li><a href="">Accès</a></li>
-                <li><a href="#">
-                  <img src="img/fb_header.png" alt="">
-                </a></li>
+                <li><a href="#hotel">L'hôtel</a></li>
+                <li><a href="#cupidon">Offre cupidon</a></li>
+                <li><a href="#acces">Accès</a></li>
               </ul>
             </nav>
           </div>
@@ -84,7 +81,7 @@
             </nav>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container" id="hotel">
           <div class="grid-x grid-padding-x grid-padding-y padding-bottom-3">
             <div class="medium-12 cell hotel">
               <div class="grid-container">
@@ -116,7 +113,9 @@
                             boutique… L’ambiance ? Ethnique chic, avec de hauts tabourets, des canapés, des
                             fauteuils, des chaises design, des poufs réinventés ; des tables hautes et basses,
                             grandes ou petites… Vous n’avez plus qu’à vous installer.</p>
-                          <input type="button" name="" value="Voir le site de l'hôtel">
+                          <a href="http://www.boma-hotel.com/">
+                            <input type="button" name="" value="Voir le site de l'hôtel">
+                          </a>
                         </div>
                         <div class="medium-6 cell align-self-middle">
                           <img src="img/chocolat.jpg" alt="">
@@ -130,7 +129,7 @@
           </div>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container"  id="cupidon">
           <div class="grid-x grid-padding-x grid-padding-y padding-bottom-3">
             <div class="large-12 cell text-center cupidon">
               <h3>Offre week-end Cupidon</h3>
@@ -289,7 +288,7 @@
           </div>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container" id="acces">
           <div class="grid-x padding-top-3 padding-bottom-3">
             <div class="large-12 cell">
               <div class="grid-container">
@@ -302,7 +301,9 @@
                           <hr><br /><br />
                           <p>Si vous souhaitez de plus amples informations sur cette offre, appelez-nous ! <br /> <br />
                           <b>N° 03 88 45 87 50</b></p>
-                          <input type="button" name="" value="Voir le site de l'hôtel">
+                          <a href="tel:+33388458750">
+                            <input type="button" name="" value="Appeler l'hôtel">
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -355,24 +356,26 @@
                   </div>
                   <div class="large-4">
                     <p><b>CONTACTS</b><br /><br />
-                    Réservation : <b>bienvenue@boma-hotel.com</b>
+                    Réservation : <b><a href="mailto:bienvenue@boma-hotel.com">bienvenue@boma-hotel.com</b></a>
                     <br>
-                      Contact : <b>hello@boma-hotel.com</b>
+                      Contact : <b><a href="mailto:hello@boma-hotel.com">hello@boma-hotel.com</b></a>
                       <br>
-                      <em>Réception : +33 (0)3 90 00 00 10
+                      <em>Réception : <a href="tel:+33390000010">+33 (0)3 90 00 00 10</a>
                       <br>
-                      Réservation : +33 (0)3 90 41 75 76</em>
+                      Réservation : <a href="tel:+33390417576">+33 (0)3 90 41 75 76</em></a>
                       <br>
                       Suivez le <b>BOMA</b></p>
-                        <img src="img/fb_footer.png" alt="">
-                        <img src="img/insta_footer.png" alt="">
+                        <a href="#"><img src="img/fb_footer.png" alt=""></a>
+                        <a href="#"><img src="img/insta_footer.png" alt=""></a>
                   </div>
                   <div class="large-4 cell">
                     <p><b>ADRESSE</b><br /><br />
                       <em>7 rue du 22 Novembre 67000
                       <br />STRASBOURG</em><br />
                       Retrouvez nos autres hôtels sur sogeho.com</p>
-                        <img src="img/sogeho.png" alt="">
+                        <a href="http://www.sogeho.com/">
+                          <img src="img/sogeho.png" alt="">
+                        </a>
                   </div>
                 </div>
               </div>
@@ -393,11 +396,11 @@
                       <div class="grid-x">
                         <div class="large-12 cell">
                           <div class="large-11 cell"></div>
-                          <div class="large-1 cell retour text-center">
-                            <a href="#">
+                          <a href="#header">
+                            <div class="large-1 cell retour text-center">
                               <img src="img/arrow_retour.png" alt="">
-                            </a>
-                          </div>
+                            </div>
+                          </a>
                         </div>
                       </div>
                     </div>

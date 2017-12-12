@@ -7,8 +7,18 @@ body{
 }
 
 header{
-  a{
-    color: #4f4f4f;
+  .menu_desktop{
+    a{
+      color: #4f4f4f;
+
+      &:hover{
+        color: $primary-color;
+      }
+    }
+
+    li{
+      padding-right:30px;
+    }
   }
 }
 
@@ -158,6 +168,10 @@ footer{
       width: 29px;
       height: 29px;
     }
+  }
+
+  a{
+    color: white;
   }
 }
 
